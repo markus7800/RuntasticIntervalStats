@@ -4,7 +4,7 @@ from enum import Enum
 from decimal import *
 import datetime
 
-file_path = input(".tcs file path: ")
+file_path = input(".tcx file path: ")
 
 class TrackPoint:
 	def __init__(self, time, distance):
